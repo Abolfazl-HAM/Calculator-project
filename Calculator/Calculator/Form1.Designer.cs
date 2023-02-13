@@ -92,6 +92,7 @@
             this.btnMinus.TabIndex = 5;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = false;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnTotal
             // 
@@ -103,6 +104,7 @@
             this.btnTotal.TabIndex = 6;
             this.btnTotal.Text = "+";
             this.btnTotal.UseVisualStyleBackColor = false;
+            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
             // 
             // btnMultipl
             // 
@@ -114,6 +116,7 @@
             this.btnMultipl.TabIndex = 7;
             this.btnMultipl.Text = "*";
             this.btnMultipl.UseVisualStyleBackColor = false;
+            this.btnMultipl.Click += new System.EventHandler(this.btnMultipl_Click);
             // 
             // btnDivide
             // 
@@ -125,6 +128,7 @@
             this.btnDivide.TabIndex = 8;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = false;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // Form1
             // 
@@ -140,6 +144,7 @@
             this.Controls.Add(this.txtNumber1);
             this.Controls.Add(this.Number1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             ((System.ComponentModel.ISupportInitialize)(this.txtNumber1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNumber2)).EndInit();
